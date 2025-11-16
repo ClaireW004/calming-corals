@@ -1560,7 +1560,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speciesName: Emperor Angelfish
-  description: Description for Emperor Angelfish
+  description: 'Angelfish dazzle with vibrant colors and graceful movements, often
+    inhabiting coral-rich zones. While some species nip at corals, others are considered
+    reef-safe. Their presence reflects reef health, but overcollection and habitat
+    degradation pose risks. '
 --- !u!65 &425919069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1580,8 +1583,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 10.186136, y: 7.095514, z: 9.615162}
+  m_Center: {x: -0.8834427, y: 1.4047517, z: -0.030432511}
 --- !u!1001 &497146302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1823,6 +1826,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1047652206}
+    - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1047652209}
   m_SourcePrefab: {fileID: -5645937942226959685, guid: b1648989e1ae4f546acf6c7e06b3b91c,
     type: 3}
 --- !u!1 &527010537
@@ -1958,6 +1965,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_KeyboardXTranslateSpeed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_KeyboardYTranslateSpeed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187026, guid: 18ddb545287c546e19cc77dc9fbb2189,
+        type: 3}
+      propertyPath: m_KeyboardZTranslateSpeed
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187027, guid: 18ddb545287c546e19cc77dc9fbb2189,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2402,7 +2424,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speciesName: Clownfish
-  description: Description for clownfish
+  description: 'Clownfish are vital to coral reefs through a symbiotic relationship
+    with sea anemones. They protect their host anemone from predators and keep it
+    clean by eating parasites and debris. In return, the anemone provides a safe
+    home, protecting the clownfish from predators. '
 --- !u!65 &665121623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2422,8 +2447,25 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.86001074, y: 0.9390918, z: 0.9295494}
+  m_Center: {x: -0.067089766, y: 0.09980209, z: -0.11876458}
+--- !u!114 &665121624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665121619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb998eb66f6e0bd47a01cb01e25d787a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centerPoint: {fileID: 1409627835}
+  orbitSpeed: 0.02
+  speedVariance: 0.01
+  radiusX: 1200
+  radiusZ: 900
 --- !u!4 &695019526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
@@ -2443,7 +2485,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speciesName: Moorish Idol
-  description: Description for moorish idol
+  description: 'Moorish idols are important to coral reefs because they act as a
+    control on sponge and algae populations, helping to maintain the reef''s balance.
+    They forage on sponges and other invertebrates, which promotes reef health and
+    supports the many other species that rely on it. '
 --- !u!65 &695019529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2463,8 +2508,25 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2133512, y: 0.80280775, z: 1.0469844}
+  m_Center: {x: -0.25108013, y: 0.02008789, z: -0.06871434}
+--- !u!114 &695019531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb998eb66f6e0bd47a01cb01e25d787a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centerPoint: {fileID: 1409627835}
+  orbitSpeed: 0.02
+  speedVariance: 0.02
+  radiusX: 900
+  radiusZ: 800
 --- !u!1 &712900736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3532,6 +3594,7 @@ Transform:
   - {fileID: 1887024416}
   - {fileID: 37089209}
   - {fileID: 963468283}
+  - {fileID: 1409627835}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &822106517
@@ -3731,12 +3794,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -690
+      value: -805
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -259
+      value: -298
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
         type: 3}
@@ -3793,6 +3856,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RegalAngelfish
       objectReference: {fileID: 0}
+    - target: {fileID: 6210154253910374632, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6de72287830df784ea59b09b4d7129e8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3805,6 +3873,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1055936144}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1055936146}
   m_SourcePrefab: {fileID: 100100000, guid: 1be181059895b2e4ab2547a52420abac, type: 3}
 --- !u!1001 &883914880
 PrefabInstance:
@@ -9398,8 +9470,25 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.91770023, z: 1.3351654}
+  m_Center: {x: 3.0880506e-13, y: 0.11764262, z: 0.0015387471}
+--- !u!114 &1047652209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580990778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb998eb66f6e0bd47a01cb01e25d787a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centerPoint: {fileID: 1409627835}
+  orbitSpeed: 0.02
+  speedVariance: 0.03
+  radiusX: 1100
+  radiusZ: 1000
 --- !u!1001 &1048237033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9516,7 +9605,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speciesName: Regal Angelfish
-  description: Description for regal angelfish
+  description: 'Angelfish dazzle with vibrant colors and graceful movements, often
+    inhabiting coral-rich zones. While some species nip at corals, others are considered
+    reef-safe. Their presence reflects reef health, but overcollection and habitat
+    degradation pose risks. '
 --- !u!65 &1055936145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9536,8 +9628,25 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.3183525, y: 1.7472212, z: 2.3212082}
+  m_Center: {x: 0.035176545, y: 0.25141338, z: -0.1617563}
+--- !u!114 &1055936146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055936141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb998eb66f6e0bd47a01cb01e25d787a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centerPoint: {fileID: 1409627835}
+  orbitSpeed: 0.02
+  speedVariance: 0.03
+  radiusX: 1200
+  radiusZ: 900
 --- !u!1001 &1076166738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9546,6 +9655,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 527010538}
     m_Modifications:
+    - target: {fileID: 3445919490634432477, guid: 4e8015e8978ebc443af8baa2b5890dec,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 31e255b0c202aa34084a2773ace89ef9, type: 2}
     - target: {fileID: 4743052802435059046, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_Name
@@ -9569,7 +9683,7 @@ PrefabInstance:
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -776
+      value: -924
       objectReference: {fileID: 0}
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
@@ -9986,7 +10100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 1313711682}
-  m_MoveSpeed: 10
+  m_MoveSpeed: 100
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 0
@@ -10196,7 +10310,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 280, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1354332092
 MonoBehaviour:
@@ -10245,8 +10359,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10390,8 +10504,43 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 695019528}
+    - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 695019531}
   m_SourcePrefab: {fileID: -4161369568681901532, guid: 4bdc7de80204de241838b084846d73ba,
     type: 3}
+--- !u!1 &1409627834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409627835}
+  m_Layer: 0
+  m_Name: CoralCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409627835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409627834}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -594, y: -589, z: -6136}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 822106516}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1428074915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10641,8 +10790,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 200, y: -150}
-  m_SizeDelta: {x: 300, y: 150}
+  m_AnchoredPosition: {x: 200, y: -50}
+  m_SizeDelta: {x: 280, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1559481986
 MonoBehaviour:
@@ -10823,7 +10972,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b5abdd2fe06fa95499e498309451e85d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -589.4645
+      value: -684
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b5abdd2fe06fa95499e498309451e85d,
         type: 3}
@@ -10887,6 +11036,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 665121622}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b5abdd2fe06fa95499e498309451e85d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 665121624}
   m_SourcePrefab: {fileID: 100100000, guid: b5abdd2fe06fa95499e498309451e85d, type: 3}
 --- !u!1 &1692003249
 GameObject:
@@ -16874,7 +17027,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 280, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2137512245
 MonoBehaviour:
@@ -16923,8 +17076,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
