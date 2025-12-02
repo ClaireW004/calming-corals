@@ -124,6 +124,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1992516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8771091787928289351, guid: 4bdc7de80204de241838b084846d73ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 1364170268}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8982505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -877,9 +883,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Some description
-
-'
+  m_text: Clownfish play a key role in reef resilience. Living symbiotically with
+    anemones, they defend their hosts from predators while gaining shelter and protection.
+    Their presence boosts anemone health and diversity. Though popular in the aquarium
+    trade, clownfish face pressures from habitat loss and warming seas.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ac1ed6123904112adeaf50e63c4731, type: 2}
   m_sharedMaterial: {fileID: 1693478669045529817, guid: c8ac1ed6123904112adeaf50e63c4731,
@@ -957,6 +964,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110355864}
   m_CullTransparentMesh: 1
+--- !u!1 &114817686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4743052802435059046, guid: 4e8015e8978ebc443af8baa2b5890dec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1076166738}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &128561335 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 461692670688170993, guid: d3887f0097534cc4baf4263f1b8093ff,
@@ -2952,7 +2965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scientific Name: \r\n\n"
+  m_text: "Scientific Name: \rChelonia mydas\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ac1ed6123904112adeaf50e63c4731, type: 2}
   m_sharedMaterial: {fileID: 1693478669045529817, guid: c8ac1ed6123904112adeaf50e63c4731,
@@ -3598,9 +3611,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Some description
-
-'
+  m_text: 'Green sea turtles are vital to reef ecosystems. Grazing on seagrass and
+    sponges, they maintain habitat balance and promote coral health. Decades of conservation
+    have helped green turtles rebound, yet threats like bycatch, pollution, and climate
+    change persist. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ac1ed6123904112adeaf50e63c4731, type: 2}
   m_sharedMaterial: {fileID: 1693478669045529817, guid: c8ac1ed6123904112adeaf50e63c4731,
@@ -5059,6 +5073,44 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1076166738}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &425919068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114817686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d62800fe277304388cd690d203b213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speciesName: Emperor Angelfish
+  description: Emperor angelfish support reef ecosystems through selective grazing,
+    keeping fast-growing invertebrates in check and allowing corals to flourish.
+    Their complex life stages and bold patterns reflect healthy, stable reefs. Yet
+    they face risks from coral loss, water pollution, and unsustainable harvesting.
+--- !u!65 &425919069
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114817686}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &433810435
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,6 +5437,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505017322}
   m_CullTransparentMesh: 1
+--- !u!1001 &505176392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 527010538}
+    m_Modifications:
+    - target: {fileID: -5644133064174452605, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2451c575fe5602d489ad2d70143ed2f6, type: 2}
+    - target: {fileID: -5644133064174452605, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128668236925612103, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_Name
+      value: GreenSeaTurtle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -373.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -258.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -172.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.79908425
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.60121906
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -73.915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1047652207}
+    - targetCorrespondingSourceObject: {fileID: 8128668236925612103, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1047652206}
+  m_SourcePrefab: {fileID: -5645937942226959685, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+    type: 3}
 --- !u!1 &522561808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5549,7 +5703,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 425919066}
-  - {fileID: 1071729036}
+  - {fileID: 1055936142}
+  - {fileID: 695019526}
+  - {fileID: 1047652204}
   - {fileID: 207064276}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5758,6 +5914,12 @@ Transform:
   - {fileID: 1692003252}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &580990778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8128668236925612103, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+    type: 3}
+  m_PrefabInstance: {fileID: 505176392}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &582165988
 GameObject:
   m_ObjectHideFlags: 0
@@ -6456,6 +6618,50 @@ CapsuleCollider:
   m_Height: 0.19387141
   m_Direction: 1
   m_Center: {x: 0, y: 0.09666458, z: 0}
+--- !u!4 &695019526 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 1364170268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &695019528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d62800fe277304388cd690d203b213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speciesName: Moorish Idol
+  description: Moorish idols contribute to reef structure by feeding on sponges,
+    corals, and algae, shaping the composition of benthic communities. Their wide-ranging
+    feeding makes them important ecosystem generalists. However, habitat degradation,
+    warming oceans, and capture for the aquarium trade threaten their stability.
+--- !u!65 &695019529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992516}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &697591776
 GameObject:
   m_ObjectHideFlags: 0
@@ -8217,6 +8423,107 @@ MonoBehaviour:
     m_Reference: {fileID: -6447266317303757838, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!1001 &883532676
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 527010538}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -690
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -259
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -251
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.74780244
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.003452607
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66391236
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000041242016
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.293
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -83.199
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.266
+      objectReference: {fileID: 0}
+    - target: {fileID: 720181901200186354, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -522
+      objectReference: {fileID: 0}
+    - target: {fileID: 720181901200186354, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      propertyPath: m_Name
+      value: RegalAngelfish
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1055936145}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1055936144}
+  m_SourcePrefab: {fileID: 100100000, guid: 1be181059895b2e4ab2547a52420abac, type: 3}
 --- !u!1001 &883914880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13641,9 +13948,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Some description
-
-'
+  m_text: Moorish idols contribute to reef structure by feeding on sponges, corals,
+    and algae, shaping the composition of benthic communities. Their wide-ranging
+    feeding makes them important ecosystem generalists. However, habitat degradation,
+    warming oceans, and capture for the aquarium trade threaten their stability.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ac1ed6123904112adeaf50e63c4731, type: 2}
   m_sharedMaterial: {fileID: 1693478669045529817, guid: c8ac1ed6123904112adeaf50e63c4731,
@@ -14505,6 +14813,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043292193}
   m_CullTransparentMesh: 1
+--- !u!4 &1047652204 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8897093224900880590, guid: b1648989e1ae4f546acf6c7e06b3b91c,
+    type: 3}
+  m_PrefabInstance: {fileID: 505176392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1047652206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580990778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d62800fe277304388cd690d203b213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speciesName: Green Sea Turtle
+  description: "Green sea turtles are vital to reef ecosystems. Grazing on seagrass
+    and sponges, they maintain habitat balance and promote coral health. Decades
+    of conservation have helped green turtles rebound, yet threats like bycatch,
+    pollution, and climate change persist.\r"
+--- !u!65 &1047652207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580990778}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1048237033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14596,6 +14948,56 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1048237033}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1055936141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
+    type: 3}
+  m_PrefabInstance: {fileID: 883532676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1055936142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
+    type: 3}
+  m_PrefabInstance: {fileID: 883532676}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1055936144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055936141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d62800fe277304388cd690d203b213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speciesName: Regal Angelfish
+  description: Regal angelfish help maintain reef balance by grazing on sponges and
+    tunicates, influencing which species thrive on coral surfaces. Their striking
+    coloration signals pristine habitats, making them indicators of reef health.
+    Still, they remain sensitive to pollution, overcollection, and coral decline.
+--- !u!65 &1055936145
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055936141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1056822382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14760,154 +15162,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 201710651}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1071729035
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 527010538}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.15919411
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.15919407
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.15919411
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 328.85
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1052.77
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6482.82
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.74780244
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.003452607
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.66391236
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.000041242016
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -0.293
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -83.199
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.266
-      objectReference: {fileID: 0}
-    - target: {fileID: 720181901200186354, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -522
-      objectReference: {fileID: 0}
-    - target: {fileID: 720181901200186354, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      propertyPath: m_Name
-      value: RegalAngelfish
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1071729039}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1071729038}
-  m_SourcePrefab: {fileID: 100100000, guid: 1be181059895b2e4ab2547a52420abac, type: 3}
---- !u!4 &1071729036 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1be181059895b2e4ab2547a52420abac,
-    type: 3}
-  m_PrefabInstance: {fileID: 1071729035}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1071729037 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1be181059895b2e4ab2547a52420abac,
-    type: 3}
-  m_PrefabInstance: {fileID: 1071729035}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1071729038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071729037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64d62800fe277304388cd690d203b213, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speciesName: Regal Angelfish
-  description: Description for regal angelfish
---- !u!65 &1071729039
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071729037}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1076166738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14924,32 +15178,32 @@ PrefabInstance:
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.053366493
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.053366493
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.053366493
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 328.18
+      value: -776
       objectReference: {fileID: 0}
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1052.745
+      value: -233
       objectReference: {fileID: 0}
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6482.6
+      value: -265
       objectReference: {fileID: 0}
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
@@ -14959,7 +15213,7 @@ PrefabInstance:
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5375439541968590812, guid: 4e8015e8978ebc443af8baa2b5890dec,
         type: 3}
@@ -14999,7 +15253,15 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4743052802435059046, guid: 4e8015e8978ebc443af8baa2b5890dec,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 425919069}
+    - targetCorrespondingSourceObject: {fileID: 4743052802435059046, guid: 4e8015e8978ebc443af8baa2b5890dec,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 425919068}
   m_SourcePrefab: {fileID: 100100000, guid: 4e8015e8978ebc443af8baa2b5890dec, type: 3}
 --- !u!4 &1103320749 stripped
 Transform:
@@ -15180,7 +15442,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scientific Name: \r\n\n"
+  m_text: "Scientific Name: \rAmphiprion ocellaris\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ac1ed6123904112adeaf50e63c4731, type: 2}
   m_sharedMaterial: {fileID: 1693478669045529817, guid: c8ac1ed6123904112adeaf50e63c4731,
@@ -15465,9 +15727,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Some description
-
-'
+  m_text: Regal angelfish help maintain reef balance by grazing on sponges and tunicates,
+    influencing which species thrive on coral surfaces. Their striking coloration
+    signals pristine habitats, making them indicators of reef health. Still, they
+    remain sensitive to pollution, overcollection, and coral decline.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ac1ed6123904112adeaf50e63c4731, type: 2}
   m_sharedMaterial: {fileID: 1693478669045529817, guid: c8ac1ed6123904112adeaf50e63c4731,
@@ -17015,6 +17278,103 @@ RectTransform:
   m_AnchoredPosition: {x: 156.4, y: -97.3}
   m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1364170268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 527010538}
+    m_Modifications:
+    - target: {fileID: -4748361991329772099, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3a35baaf51bc0fe4ebf2381438256217, type: 2}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -544.8014
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -215.29999
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -113.490234
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7111968
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.702993
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.335
+      objectReference: {fileID: 0}
+    - target: {fileID: -3910990755373119420, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771091787928289351, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      propertyPath: m_Name
+      value: MoorishIdol
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 695019529}
+    - targetCorrespondingSourceObject: {fileID: 8771091787928289351, guid: 4bdc7de80204de241838b084846d73ba,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 695019528}
+  m_SourcePrefab: {fileID: -4161369568681901532, guid: 4bdc7de80204de241838b084846d73ba,
+    type: 3}
 --- !u!1 &1364876301
 GameObject:
   m_ObjectHideFlags: 0
@@ -26309,7 +26669,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Scientific Name: \r\n\n"
+  m_text: "Scientific Name: \rZanclus cornutus\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c8ac1ed6123904112adeaf50e63c4731, type: 2}
   m_sharedMaterial: {fileID: 1693478669045529817, guid: c8ac1ed6123904112adeaf50e63c4731,

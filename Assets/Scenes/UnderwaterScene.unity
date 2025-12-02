@@ -1560,7 +1560,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speciesName: Emperor Angelfish
-  description: Description for Emperor Angelfish
+  description: Emperor angelfish support reef ecosystems through selective grazing,
+    keeping fast-growing invertebrates in check and allowing corals to flourish.
+    Their complex life stages and bold patterns reflect healthy, stable reefs. Yet
+    they face risks from coral loss, water pollution, and unsustainable harvesting.
 --- !u!65 &425919069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2402,7 +2405,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speciesName: Clownfish
-  description: Description for clownfish
+  description: Clownfish play a key role in reef resilience. Living symbiotically
+    with anemones, they defend their hosts from predators while gaining shelter and
+    protection. Their presence boosts anemone health and diversity. Though popular
+    in the aquarium trade, clownfish face pressures from habitat loss and warming
+    seas.
 --- !u!65 &665121623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2443,7 +2450,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speciesName: Moorish Idol
-  description: Description for moorish idol
+  description: Moorish idols contribute to reef structure by feeding on sponges,
+    corals, and algae, shaping the composition of benthic communities. Their wide-ranging
+    feeding makes them important ecosystem generalists. However, habitat degradation,
+    warming oceans, and capture for the aquarium trade threaten their stability.
 --- !u!65 &695019529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3396,11 +3406,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 818608159}
-  - component: {fileID: 818608161}
   - component: {fileID: 818608160}
   - component: {fileID: 818608163}
   - component: {fileID: 818608162}
-  - component: {fileID: 822106516}
   - component: {fileID: 822106517}
   m_Layer: 0
   m_Name: PlayerCollider
@@ -3430,12 +3438,6 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &822106517
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818608158}
   serializedVersion: 4
   m_Mass: 1
@@ -3452,20 +3454,109 @@ AudioSource:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &818608161
 CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822106515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &818608162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818608158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f3fda696362c344b5595c73ec31e65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 920921511}
+--- !u!114 &818608163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818608158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c7c00b5cfbd1c43bfeacf8cc02a3a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupUI: {fileID: 1503049849}
+--- !u!1 &822106515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 822106516}
+  - component: {fileID: 818608161}
+  m_Layer: 0
+  m_Name: -- ENVIRONMENT --
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &822106516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822106515}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -325.2422, y: -153.37729, z: -416.05225}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1212757601}
+  - {fileID: 1887024416}
+  - {fileID: 37089209}
+  - {fileID: 963468283}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &822106517
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818608158}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 054205af35efcb942be9610445479a7c, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.856
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3549,67 +3640,6 @@ CapsuleCollider:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &818608162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818608158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1f3fda696362c344b5595c73ec31e65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cameraTransform: {fileID: 920921511}
---- !u!114 &818608163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818608158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09c7c00b5cfbd1c43bfeacf8cc02a3a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  popupUI: {fileID: 1503049849}
---- !u!1 &822106515
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 822106516}
-  m_Layer: 0
-  m_Name: -- ENVIRONMENT --
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &822106516
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822106515}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -325.2422, y: -153.37729, z: -416.05225}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1212757601}
-  - {fileID: 1887024416}
-  - {fileID: 37089209}
-  - {fileID: 963468283}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &880785566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9496,7 +9526,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speciesName: Regal Angelfish
-  description: Description for regal angelfish
+  description: Regal angelfish help maintain reef balance by grazing on sponges and
+    tunicates, influencing which species thrive on coral surfaces. Their striking
+    coloration signals pristine habitats, making them indicators of reef health.
+    Still, they remain sensitive to pollution, overcollection, and coral decline.
 --- !u!65 &1055936145
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16963,8 +16996,6 @@ SceneRoots:
   - {fileID: 2124398260}
   - {fileID: 1313711681}
   - {fileID: 1735264986}
-  - {fileID: 1949869701}
-  - {fileID: 2134874818}
   - {fileID: 822106516}
   - {fileID: 949826355}
   - {fileID: 931564662}
@@ -16972,4 +17003,3 @@ SceneRoots:
   - {fileID: 527010538}
   - {fileID: 1503049853}
   - {fileID: 1768731995}
-  - {fileID: 1692003252}
