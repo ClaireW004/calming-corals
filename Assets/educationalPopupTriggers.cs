@@ -21,6 +21,8 @@ public class educationalPopupTriggers : MonoBehaviour
 
     public GameObject turtle;
     private bool turtleShown = false;
+    public GameObject angel;
+    //private bool turtleShown = false;
 
     void Start()
     {
@@ -35,6 +37,9 @@ public class educationalPopupTriggers : MonoBehaviour
         if (slider.value >= 1.5 && slider.value < 3.5 && !angelfishShown) {
             angelfish.SetActive(true);
             angelfishShown = true;
+            //Fish Code
+            angel.SetActive(true);
+
         }
         else if (slider.value >= 3.5 && slider.value < 6.0 && !regalangelfishShown) {
             regalangelfish.SetActive(true);
