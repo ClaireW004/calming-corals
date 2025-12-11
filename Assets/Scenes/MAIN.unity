@@ -364,7 +364,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 4e-44, z: 1.8525e-41, w: 0}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.3e-43, z: 9.875e-42, w: 7.0365105e+22}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -5967,7 +5967,6 @@ GameObject:
   - component: {fileID: 1866758135}
   - component: {fileID: 1866758134}
   - component: {fileID: 1866758133}
-  - component: {fileID: 1866758132}
   - component: {fileID: 1866758131}
   - component: {fileID: 1866758130}
   m_Layer: 0
@@ -6018,21 +6017,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 1895703308}
-  fadeDuration: 5
+  fadeDuration: 3
   fadeAudio: 1
   minVolume: 0
---- !u!225 &1866758132
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1866758127}
-  m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
-  m_IgnoreParentGroups: 0
 --- !u!114 &1866758133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6082,7 +6069,7 @@ Canvas:
   m_GameObject: {fileID: 1866758127}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 326540353}
   m_PlaneDistance: 0
   m_PixelPerfect: 1
@@ -6108,7 +6095,7 @@ GameObject:
   - component: {fileID: 1895703309}
   - component: {fileID: 1895703308}
   m_Layer: 0
-  m_Name: Image
+  m_Name: fadeImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
