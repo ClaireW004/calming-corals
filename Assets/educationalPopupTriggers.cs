@@ -52,7 +52,7 @@ public class educationalPopupTriggers : MonoBehaviour
             regalangelfishShown = true;
             regalangelfishModel.SetActive(true);
         }
-        else if (slider.value >= 9.0 && slider.value < 10.0 && !moorishidolShown) {
+        else if (slider.value >= 9.0 && slider.value < 10.0 && !clownfishShown) {
             clownfish.SetActive(true);
             clownfishShown = true;
             clownfishModel.SetActive(true);
