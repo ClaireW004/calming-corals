@@ -18,6 +18,7 @@ Material:
   - _DEBUGVISUALISE_NONE
   - _FOAM3DLIGHTING_ON
   - _FOAM_ON
+  - _SHADOWS_ON
   - _TRANSPARENCY_ON
   m_InvalidKeywords:
   - _COMPILESHADERWITHDEBUGINFO_ON
@@ -150,7 +151,7 @@ Material:
     - _RefractiveIndexOfWater: 1.333
     - _Roughness: 0
     - _S: 1
-    - _Shadows: 0
+    - _Shadows: 1
     - _ShorelineFoamMinDepth: 0.27
     - _SkyDirectionality: 0.875
     - _Specular: 1

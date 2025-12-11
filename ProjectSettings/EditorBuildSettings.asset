@@ -5,15 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/ISLANDboys.unity
+    guid: b6991d06fd8c69342afa65a2a27fab65
   - enabled: 1
-    path: Assets/Scenes/MyUnderwaterScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/MAIN.unity
+    guid: 35377545a43a9004585286a307c7e616
+  - enabled: 1
+    path: Assets/Scenes/NewMain.unity
+    guid: b983ba6d29a3f4a4f83e4d9a70bab373
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ad4050bc0deda4e238354e959df0f1f4,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b53b89ca9241447b0a56ff61fa931615,
-      type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: f4f50c8f8f3454c90a388877cf1a2c81,
-      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b53b89ca9241447b0a56ff61fa931615, type: 2}

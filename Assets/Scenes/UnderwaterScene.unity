@@ -16769,7 +16769,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1212757601}
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> ez
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
@@ -16779,62 +16783,110 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalScale.y
+<<<<<<< HEAD
       value: 176157.2
+=======
+      value: 176157.22
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalScale.z
+<<<<<<< HEAD
       value: 176157.2
+=======
+      value: 176157.22
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: -508
+=======
+      value: 103.25
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: -758
+=======
+      value: 0.021396
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: -6204
+=======
+      value: -0.070777
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalRotation.w
+<<<<<<< HEAD
       value: 0.69921297
+=======
+      value: 0.7071067
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD
       value: -0.69921315
+=======
+      value: -0.7071068
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD
       value: 0.10536175
+=======
+      value: 0
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: -0.10536175
+=======
+      value: -0
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
+<<<<<<< HEAD
       value: -72.862
+=======
+      value: 0
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+<<<<<<< HEAD
       value: 90
+=======
+      value: 0
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+<<<<<<< HEAD
       value: -90
+=======
+      value: 0
+>>>>>>> ez
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d68d0f6bcad977843aa90eb1252296c4,
         type: 3}
@@ -16846,6 +16898,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d68d0f6bcad977843aa90eb1252296c4, type: 3}
+<<<<<<< HEAD
 --- !u!4 &2134874819 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d68d0f6bcad977843aa90eb1252296c4,
@@ -16986,6 +17039,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2137512243}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> ez
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -16996,6 +17051,7 @@ SceneRoots:
   - {fileID: 2124398260}
   - {fileID: 1313711681}
   - {fileID: 1735264986}
+<<<<<<< HEAD
   - {fileID: 822106516}
   - {fileID: 949826355}
   - {fileID: 931564662}
@@ -17003,3 +17059,7 @@ SceneRoots:
   - {fileID: 527010538}
   - {fileID: 1503049853}
   - {fileID: 1768731995}
+=======
+  - {fileID: 1949869701}
+  - {fileID: 2134874818}
+>>>>>>> ez
